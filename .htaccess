@@ -1,0 +1,7 @@
+# CarEngine POS - Apache Web Server Entry Configuration
+DirectoryIndex index.php login.php
+
+# Enable clean URL routing and prevent directory browsing
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+</IfModule>
